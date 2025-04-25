@@ -1,12 +1,38 @@
-# React + Vite
+# 📝 Task Manager App (Supabase + React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Task Manager web application built using **React.js**, **Tailwind CSS**, and **Supabase**. It allows users to:
 
-Currently, two official plugins are available:
+- 📌 Add tasks with a due date  
+- 📋 View tasks in a table format  
+- 🔄 See new tasks in **real-time** using Supabase's `postgres_changes` feature  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add new tasks with a completion date
+- ✅ Auto-fetch tasks on page load
+- ✅ Real-time task updates using Supabase Realtime
+- ✅ Styled with Tailwind CSS
+- ❌ No authentication (public project)
+- 🛠️ Backend: Supabase (Database + Realtime)
+
+---
+
+## 📂 Tech Stack
+
+| Technology | Use |
+|------------|-----|
+| React.js   | Frontend |
+| Tailwind CSS | Styling |
+| Supabase   | Backend (Database + Realtime) |
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/Amansingh-06/Task-Manager-supabase
+
